@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Juahaliyako</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgotten_password">Forgotten password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="back">back</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawe</string>
+    <string name="jua_hali">JUA HALI</string>
+    <string name="disaster_locations">Disaster Locations</string>
+<!--    <string name="disaster_description">Disaster Description</string>-->
+<!--    <string name="location">Location</string>-->
+    <string name="disaster_name">Disaster Name</string>
+    <string name="jua_hali_yako">JUA HALI YAKO</string>
+    <string name="HOME" />
+
+    <string name="report_a_disaster">Report a disaster</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+
+    <string name="logout">Logout</string>
+    <string name="talk_with_us">Talk with us</string>
+    <string name="interact_with_us">Interact with us</string>
+    <string name="homee">Home</string>
+    <string name="be_cautious_during_these_times">Be cautious during these times.</string>
+    <array name="disaster_image">
+        <item>@drawable/dis</item>
+    </array>
+    <string-array name="disaster_name">
+        <item>Earthquake</item>
+    </string-array>
+    <string-array name="disaster_location">
+        <item>Muranga</item>
+    </string-array>
+    <string-array name="disaster_description">
+        <item>Very bad</item>
+    </string-array>
+    <string name="title_activity_disaster_location">Map</string>
+    <string name="mapstext">Select your location</string>
+    <string name="share_your_location">share your location</string>
+    <string name="disaster_description">Disaster Description</string>
+    <string name="disaster_type">Disaster Type</string>
+    <string name="location">Location</string>
+
+
+</resources>
