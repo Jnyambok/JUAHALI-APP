@@ -10,8 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.juliusnyambok.RecyclerView.RecyclerViewMain;
 
-import com.juliusnyambok.Common.LoginRegisterStart;
 
 public class OnBoarding extends AppCompatActivity {
     private ViewPager mSlideViewPager;
@@ -103,7 +103,7 @@ public class OnBoarding extends AppCompatActivity {
             mNextButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(OnBoarding.this, LoginRegisterStart.class));
+                    startActivity(new Intent(OnBoarding.this, RecyclerViewMain.class));
 
                 }
             });
@@ -123,14 +123,5 @@ public class OnBoarding extends AppCompatActivity {
 
         }
     };
-
-
-
-
-
-
-
-
-
 
 }
