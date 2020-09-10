@@ -15,9 +15,9 @@
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_app_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_app_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -35,6 +35,8 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <meta android:name="google-signin-client_id" android:content="754664804812-dphfrg0n2sgat70lp9nbngtkrq6qarol.apps.googleusercontent.com.apps.googleusercontent.com"/>
 
         <activity android:name=".PostReport" />
         <activity android:name=".OnBoarding" />
